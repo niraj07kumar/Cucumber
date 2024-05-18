@@ -50,7 +50,7 @@ public class amazonSearchSteps {
 
 	@Then("Results should display")
 	public void results_should_display() {
-		// Write code here that turns the  phrase above into concrete actions
+		// Write code here that  turns the  phrase above into concrete actions
 		//throw new io.cucumber.java.PendingException();
 		driver.findElement(By.xpath("//*[text()='Results']"));
 		driver.quit();
